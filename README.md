@@ -12,7 +12,7 @@ This program uses:
 ## References
 
 
-If you use my script please cite me :)
+If you use my script please mention me :)
 
 ## Additional remarks
 
