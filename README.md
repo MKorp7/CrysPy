@@ -20,3 +20,5 @@ The result is prediction not the promise! A prediction of failure or success can
 
 It is also recommended to manually check which data deviate from the peak in the distribution graphs and decide for yourself what type of protein "unusualness" is more acceptable to us and we know how to deal with it in the wet lab.
 
+The script to do not handle proteins with unusual amino acids!
+
