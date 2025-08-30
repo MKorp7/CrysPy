@@ -13,7 +13,8 @@ Protein crystallization is a challenging task that takes a lot of time and money
  ```{bash}
  pip install -r requirements.txt
   ```
-
+# Raport
+The raport and biblioraphy can be found in _Machine_Learning_to_Predict_Protein_Crystallizability.pdf_ This file will also bring you closer the idea behind this project.
 
 # Data
 The training dataset was downloaded from https://XtalPred.godziklab.org/XtalPred/data.tar. Credits belong to Adam Godzik Lab, which created the dataset. 
@@ -22,16 +23,16 @@ The results from NetSurfP for the sequences from the dataset are stored here as 
 
 The uncompressed file is 1.6 GB. You do NOT need it to run this scripts!
 
-The calculated features for training set are saved as ... 
+The calculated features for training set and test set are saved in _datasets_.
 
-# Notebooks
+# Notebooks and usage
 Notebooks are designed to run on a specific set of data and in the appropriate order, so they are numbered and use file paths. The results are presented in notebooks for the convenience of reviewers as they show partial results step by step and allow convenient editing of individual parts of the code if the user would like to expand it.
 At the beginning of each notebook, the resulting files and the files necessary to run are described. Please change the paths if you would like to use own sequences and fasta files.
 
-- 1_based_features_calculations.ipynb - creating dataset A, needed about 10 minutes to run.
-- 2_data_integration.ipynb - creating dataset B, needed about 30 minutes to run.
-- 3_data_integration-dataset_C.ipynb - creating dataset C. *There is also a possibility to create only datasets A and C and remove columns added in these step to obtain dataset B.*
-- 4_models.ipynb - the final notebook with models and dataset comparison.
+- 1_standard_features_calculations.ipynb - creating dataset with standard features, uses iupred2a.
+- 2 - in this step you need to run NetSurfP!
+- 3_data_integration-dataset_additional_features.ipynb - creating dataset with all features, uses ouput from first notebook and NetSurf3P results.
+- 4_models_train_and_test.ipynb - the final notebook, performs predictions, saves csvwith features and results, create plots with "best" proteins features against feature distribution.
 
 ## Additional remarks
 
@@ -40,4 +41,11 @@ The result is prediction not the promise! A prediction of failure or success can
 It is also recommended to manually check which data deviate from the peak in the distribution graphs and decide for yourself what type of protein "unusualness" is more acceptable to us and we know how to deal with it in the wet lab.
 
 The script to do not handle proteins with unusual amino acids! There will be written down to separte fasta file.
+
+Below a real-life example:
+<img width="1989" height="3880" alt="Bez nazwy" src="https://github.com/user-attachments/assets/7eebaa29-fc60-46a4-b447-43ccac56c83f" />
+
+
+
+
 
