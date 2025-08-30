@@ -1,0 +1,25 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+biopython=1.83=pypi_0
+boruta=0.3=pypi_0
+matplotlib=3.7.1=py311h38be061_0
+matplotlib-base=3.7.1=py311h8597a09_0
+matplotlib-inline=0.1.6=pypi_0
+pandas=2.0.0=py311h2872171_0
+pillow=9.4.0=py311h6a678d5_0
+python=3.11.2=h7a1cb2a_0
+python-dateutil=2.8.2=pyhd8ed1ab_0
+python-graphviz=0.20.1=pypi_0
+python-json-logger=2.0.7=pypi_0
+python-tzdata=2023.3=pyhd8ed1ab_0
+python_abi=3.11=2_cp311
+scikit-learn=1.2.2=py311h103fc68_1
+scipy=1.10.1=pypi_0
+seaborn=0.13.2=pypi_0
+tensorboard=2.12.2=pypi_0
+tensorboard-data-server=0.7.0=pypi_0
+tensorboard-plugin-wit=1.8.1=pypi_0
+tensorflow=2.12.0=pypi_0
+tensorflow-estimator=2.12.0=pypi_0
+tensorflow-io-gcs-filesystem=0.32.0=pypi_0
