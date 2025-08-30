@@ -45,6 +45,13 @@ The script to do not handle proteins with unusual amino acids! There will be wri
 Below a real-life example:
 <img width="1989" height="3880" alt="Bez nazwy" src="https://github.com/user-attachments/assets/7eebaa29-fc60-46a4-b447-43ccac56c83f" />
 
+## About author
+Marta Korpacz
+
+[1] The Centre of New Technologies (University of Warsaw), INTERDISCIPLINARY LABORATORY of BIOLOGICAL SYSTEMS MODELLING (Sulkowska Group)
+
+[2] Faculty of Mathematics, Informatics, and Mechanics, University of Warsaw
+
 
 
 
